@@ -27,14 +27,20 @@ namespace NiceLittleQuiz
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            if (text2.IsChecked == true && text5.IsChecked == true && text8.IsChecked == true)
+            if (text2.IsChecked == true && text5.IsChecked == true && text8.IsChecked == true && text10.IsChecked == true)
             {
                 MessageBox.Show("You Win!");
             }
-            else
+            else if (text2.IsChecked == true && text5.IsChecked == true && text8.IsChecked == true && text11.IsChecked == true)
+            {
+                MessageBox.Show("you win... (and made me sad wow)");
+            }
+            else 
             {
                 MessageBox.Show("You Lose.");
             }
+
+           
         }
     }
 }

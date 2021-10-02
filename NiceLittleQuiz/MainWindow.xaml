@@ -5,14 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:NiceLittleQuiz"
         mc:Ignorable="d"
-        Title="Nice little Quiz by Link4real" Height="450" Width="853">
+        Title="Nice little Quiz by Link4real" Height="450" Width="1038">
     <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="106,42,0,0" Text="Question 1:" TextWrapping="Wrap" VerticalAlignment="Top" Height="20" Width="76"/>
         <TextBlock HorizontalAlignment="Left" Margin="106,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="de-de" Text="When was World war 2?"/></TextBlock>
         <CheckBox Content="1914"  x:Name="text1" HorizontalAlignment="Left" Margin="86,107,0,0" VerticalAlignment="Top"/>
         <CheckBox Content="1939"  x:Name="text2" HorizontalAlignment="Left" Margin="144,107,0,0" VerticalAlignment="Top"/>
         <CheckBox Content="1928"  x:Name="text3" HorizontalAlignment="Left" Margin="195,107,0,0" VerticalAlignment="Top"/>
-        <Button Content="Submit" HorizontalAlignment="Center" Margin="0,265,0,0" VerticalAlignment="Top" Width="182" Click="Button_Click" Height="44"/>
+        <Button Content="Submit" HorizontalAlignment="Left" Margin="406,301,0,0" VerticalAlignment="Top" Width="264" Click="Button_Click" Height="44"/>
         <TextBlock HorizontalAlignment="Left" Margin="314,38,0,0" Text="Question 2:" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="314,63,0,0" Text="Who discovered america?" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <CheckBox Content="Christoph Columbus" x:Name="text4" HorizontalAlignment="Left" Margin="314,104,0,0" VerticalAlignment="Top"/>
@@ -23,6 +23,10 @@
         <CheckBox Content="Leonardo di Caprio" x:Name="text7" HorizontalAlignment="Left" Margin="573,104,0,0" VerticalAlignment="Top"/>
         <CheckBox Content="Leonardo da Vinci" x:Name="text8" HorizontalAlignment="Left" Margin="573,133,0,0" VerticalAlignment="Top" Width="121"/>
         <CheckBox Content="Donald Duck" x:Name="text9" HorizontalAlignment="Left" Margin="573,167,0,0" VerticalAlignment="Top" Width="121"/>
+        <TextBlock HorizontalAlignment="Left" Margin="839,42,0,0" Text="Question 4:" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="839,69,0,0" Text="Is Link4real cool?" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <CheckBox Content="Yes" x:Name="text10" HorizontalAlignment="Left" Margin="839,104,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="No" x:Name="text11" HorizontalAlignment="Left" Margin="839,133,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
